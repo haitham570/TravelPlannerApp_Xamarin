@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelPlannerAPP.EditTrip"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid BackgroundColor="#6D0808">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0" BackgroundColor="#6D0808" Padding="20, 30, 20, 20">
+                <Label x:Name="BackLabel" Text="Back" TextColor="Orange" BackgroundColor="#6D0808"  HorizontalOptions="Start" FontAttributes="Bold">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                    </Label.GestureRecognizers>
+                    <Label.TextDecorations>
+                        <TextDecorations>Underline</TextDecorations>
+                    </Label.TextDecorations>
+                </Label>
+                <Label Text="Edit Trip" TextColor="White" FontSize="Large" 
+                FontAttributes="Bold" HorizontalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Grid.Row="1" Padding="20">
+
+
+                <Frame BorderColor ="Black" BackgroundColor="White" 
+                 Margin="1" CornerRadius="20" HeightRequest="50"
+                 Padding="25,0,25,0">
+                    <Entry x:Name="destinationEntry" Text="{Binding Destination}" TextColor="Black"/>
+                </Frame>
+
+                <StackLayout Orientation="Horizontal" Spacing="60" >
+                    <Frame BorderColor="Black" Margin="1" CornerRadius="15" HeightRequest="50" Padding="20,0,20,0" WidthRequest="200" >
+                        <DatePicker x:Name="startDatePicker" />
+                    </Frame>
+                    <Frame BorderColor="Black" Margin="1" CornerRadius="15" HeightRequest="50" Padding="20,0,20,0" WidthRequest="200">
+                        <DatePicker x:Name="endDatePicker"/>
+                    </Frame>
+
+                </StackLayout>
+
+                <Frame BorderColor ="Black" BackgroundColor="White" 
+                  Margin="1" CornerRadius="20" HeightRequest="50"
+                  Padding="25,0,25,0">
+                    <Entry x:Name="tripCostEntry" Text="{Binding TripCost}" TextColor="Black"/>
+                </Frame>
+
+                <Frame BorderColor ="Black" BackgroundColor="White" 
+                  Margin="1" CornerRadius="20" HeightRequest="50"
+                  Padding="25,0,25,0">
+                    <Entry x:Name="programEntry" Text="{Binding Program}" TextColor="Black"/>
+                </Frame>
+                <Frame BorderColor ="Black" BackgroundColor="White" 
+                 Margin="1" CornerRadius="20" HeightRequest="50"
+                 Padding="25,0,25,0">
+                    <Entry x:Name="ImageUrlEntry" Text="{Binding ImageUrl}" TextColor="Black"/>
+                </Frame>
+
+                <Button x:Name="UpdateImage" Text="Update Image!" TextColor="Orange" BackgroundColor="#6D0808" 
+                 FontAttributes="Bold" HorizontalOptions="Start"  Clicked="UpdateImage_Clicked"/>
+                <Image x:Name="resutlImage" Aspect="Fill" HeightRequest="100" />
+
+                <StackLayout Grid.Row="1" Padding="20,50,20,20">
+
+                    <Frame BorderColor ="White" BackgroundColor="White" 
+                      Margin="0" HeightRequest="2"
+                      Padding="0">
+                    </Frame>
+                    <Button x:Name="UpdateTripButton" Text="Update Trip" TextColor="Black" BackgroundColor="White" 
+         FontSize="Medium" FontAttributes="Bold" CornerRadius="50" Margin="30,20,30,10" Clicked="UpdateTripButton_Clicked" />
+                </StackLayout>
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

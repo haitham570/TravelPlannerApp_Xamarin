@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "8wDzmCx9TkK07dSQQ9yUqWiZ5JN347H9aJ9pNpm/Pk6g1Yh3B8YQ9xSl1Z4n7Fcoq8uUMG00YJ/ffdfWB41tYw==",
+  "success": true,
+  "projectFilePath": "C:\\Multiplatform Projects\\TravelPlannerAPP\\TravelPlannerAPP.iOS\\TravelPlannerAPP.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\haith\\.nuget\\packages\\sqlite-net-pcl\\1.9.172\\sqlite-net-pcl.1.9.172.nupkg.sha512",
+    "C:\\Users\\haith\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.1.2\\sqlitepclraw.bundle_green.2.1.2.nupkg.sha512",
+    "C:\\Users\\haith\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\haith\\.nuget\\packages\\sqlitepclraw.provider.sqlite3\\2.1.2\\sqlitepclraw.provider.sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\haith\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\haith\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\haith\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\haith\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\haith\\.nuget\\packages\\xam.plugin.media\\6.0.2\\xam.plugin.media.6.0.2.nupkg.sha512",
+    "C:\\Users\\haith\\.nuget\\packages\\xamarin.essentials\\1.8.1\\xamarin.essentials.1.8.1.nupkg.sha512",
+    "C:\\Users\\haith\\.nuget\\packages\\xamarin.forms\\5.0.0.2662\\xamarin.forms.5.0.0.2662.nupkg.sha512",
+    "C:\\Users\\haith\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2662\\xamarin.forms.maps.5.0.0.2662.nupkg.sha512"
+  ],
+  "logs": []
+}

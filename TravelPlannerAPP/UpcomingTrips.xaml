@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TravelPlannerAPP.UpcomingTrips"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid BackgroundColor="#6D0808">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="1.5*"/>
+
+            </Grid.RowDefinitions>
+            <StackLayout Grid.Row="0" BackgroundColor="#6D0808" Padding="20, 30, 20, 20">
+                <Label x:Name="BackLabel" Text="LogOut" TextColor="Orange" BackgroundColor="#6D0808"  HorizontalOptions="Start" FontAttributes="Bold">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                    </Label.GestureRecognizers>
+                    <Label.TextDecorations>
+                        <TextDecorations>Underline</TextDecorations>
+                    </Label.TextDecorations>
+                </Label>
+                <Label Text="Upcoming Trips" TextColor="White" FontSize="Large" 
+               FontAttributes="Bold" HorizontalOptions="Center"/>
+            </StackLayout>
+
+
+            <StackLayout Grid.Row="1" Padding="20,10,20,0">
+
+                <Frame BorderColor ="Black" BackgroundColor="White" 
+               Margin="1" CornerRadius="20" HeightRequest="60"
+               Padding="25,0,25,0">
+                    <SearchBar Placeholder="Search" TextColor="Gray" x:Name="searchBar" TextChanged="searchBar_TextChanged"/>
+                </Frame>
+
+                <Frame BorderColor ="White" BackgroundColor="White" 
+               Margin="0" HeightRequest="2"
+               Padding="0">
+                </Frame>
+                <Label Text="Click image for Details" TextColor="Orange" FontAttributes="Bold"/>
+            </StackLayout>
+
+
+
+            <CollectionView Grid.Row="2" x:Name="tripsCollectionView" BackgroundColor="#6D0808">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="10"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="10" BackgroundColor="#6D0808">
+                            <Frame CornerRadius="5"
+                                   BorderColor="White"
+                                   BackgroundColor="White"
+                                   HasShadow="True">
+                                <StackLayout Padding="10" >
+                                    <Image Source="{Binding ImageUrl}" WidthRequest="50" HeightRequest="90" Aspect="Fill" BackgroundColor="White">
+                                        <Image.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                                        </Image.GestureRecognizers>
+                                    </Image>
+                                    <Label Text="{Binding Destination}" FontAttributes="Bold" TextColor="Orange" FontSize="20" HorizontalOptions="Center" />
+                                    
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <StackLayout Grid.Row="3" Padding="20,50,20,20">
+                <Frame BorderColor ="White" BackgroundColor="White" 
+                Margin="0" HeightRequest="4"
+                Padding="0">
+                </Frame>
+                <Button Text="Add Trip" TextColor="Black" BackgroundColor="White" 
+                        FontSize="Medium" FontAttributes="Bold" CornerRadius="50" Margin="30,20,30,40" Clicked="Button_Clicked"/>
+                
+            </StackLayout>
+            
+            
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

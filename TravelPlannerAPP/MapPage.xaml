@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+             x:Class="TravelPlannerAPP.MapPage" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+
+        <StackLayout Spacing="20" Background="#6D0808">
+            <Label x:Name="BackLabel" Text="Back" TextColor="Orange" BackgroundColor="#6D0808"  HorizontalOptions="Start" FontAttributes="Bold" Padding="20,20,20,0">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+                <Label.TextDecorations>
+                    <TextDecorations>Underline</TextDecorations>
+                </Label.TextDecorations>
+            </Label>
+            <Frame  Padding="20" CornerRadius="50" HeightRequest="30" Margin="15">
+                <SearchBar x:Name="targetsearchBar"
+                   Text="{Binding Destination}"
+                           BackgroundColor="White"
+                           
+                   SearchButtonPressed="targetsearchBar_SearchButtonPressed"/>
+
+            </Frame>
+            <Label x:Name="ShowDirectionsLabel" Text="Show Directions" TextColor="Orange" HorizontalOptions="Start" Padding="20,0,20,0">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1"/>
+                </Label.GestureRecognizers>
+                <Label.TextDecorations>
+                    <TextDecorations>Underline</TextDecorations>
+                </Label.TextDecorations>
+            </Label>
+
+            <maps:Map x:Name="map" IsShowingUser="True"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

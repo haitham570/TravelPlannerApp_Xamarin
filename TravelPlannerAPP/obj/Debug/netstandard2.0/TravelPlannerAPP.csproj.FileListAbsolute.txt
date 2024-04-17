@@ -1,0 +1,24 @@
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\TravelPlannerAPP.csproj.AssemblyReference.cache
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\TravelPlannerAPP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\TravelPlannerAPP.AssemblyInfoInputs.cache
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\TravelPlannerAPP.AssemblyInfo.cs
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\TravelPlannerAPP.csproj.CoreCompileInputs.cache
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\TravelPlannerAPP.dll
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\refint\TravelPlannerAPP.dll
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\TravelPlannerAPP.pdb
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\bin\Debug\netstandard2.0\TravelPlannerAPP.deps.json
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\bin\Debug\netstandard2.0\TravelPlannerAPP.dll
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\bin\Debug\netstandard2.0\ref\TravelPlannerAPP.dll
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\bin\Debug\netstandard2.0\TravelPlannerAPP.pdb
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\TripDetails .xaml.g.cs
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\AddTrip.xaml.g.cs
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\EditTrip.xaml.g.cs
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\SignIn.xaml.g.cs
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\SignUp.xaml.g.cs
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\UpcomingTrips.xaml.g.cs
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\DirectionsPage.xaml.g.cs
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\MapPage.xaml.g.cs
+C:\Multiplatform Projects\TravelPlannerAPP\TravelPlannerAPP\obj\Debug\netstandard2.0\Page1.xaml.g.cs
